@@ -11,8 +11,9 @@
 
 }
 h1 a {
-    color:darkorange;
+    color:white;
     align-self: left;
+    font-size: 35px;
 }
 .logo {
     margin: 0 0 0 .45em;
@@ -33,25 +34,25 @@ h1 a {
 .navigatie a {
     display: block;
     padding: 1em;
-    color:black;
+    color:white;
     font-size: 20px;
     font-family: 'Calistoga', cursive;
     
 }
 .navigatie a:hover {
-    background-color:chartreuse;
+    background-color:orange;
     color: black;
 }
 p {
     text-align: center;
     font-size: 2rem;
-    color:black;
+    color:white;
     margin-top: 200px;
     font-family: 'Calistoga', cursive;
     
 }
 .linkje {
-    color: black;
+    color: white;
 }
 
 
@@ -95,25 +96,27 @@ Achtergrond in de avond
 https://wallpaperaccess.com/full/1267246.png 
 */
 body {
-    background-image: url(https://i.pinimg.com/originals/cb/99/22/cb99222eab61f59a4ce44dfa9a245720.jpg);
+    background-image: url(https://images.unsplash.com/photo-1530982011887-3cc11cc85693?ixlib=rb-1.2.1&w=1000&q=80);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 .day {
-    background-image: url(https://i.pinimg.com/originals/cb/99/22/cb99222eab61f59a4ce44dfa9a245720.jpg);
+    background-image: url(https://images.unsplash.com/photo-1530982011887-3cc11cc85693?ixlib=rb-1.2.1&w=1000&q=80);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
 .night {
-        background-image: url(https://wallpaperaccess.com/full/1267246.png );
+        background-image: url(https://skitguys.com/imager/stillimages/667432/Starry-Night-Nativity-10-Still_LSM_aadcc2b1f9fa535f36249a03e9ea56d2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 
@@ -160,6 +163,67 @@ fieldset {
     
 } 
 
+#flexen {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    height: auto;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.box {
+     font-family: 'Calistoga';
+    width: 20%;
+    height: 300px;
+    background-color: orange;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    box-shadow: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+
+  
+}
+
+@media screen and (max-width:1000px) {
+    .box {
+        width: 40%;
+    }
+}
+@media screen and (max-width:700px) {
+    .box {
+        width: 90%;
+    }
+}
+
+#AHkleur:hover {
+    background-color: dodgerblue;
+    transition: background-color 2s ease-out;
+}
+#sport:hover {
+    background-color: whitesmoke;
+    transition: background-color 2s ease-out;
+}
+#cmd:hover {
+    background-color: yellow;
+    transition: background-color 2s ease-out;
+}
+#daan:hover {
+    background-color: red;
+    transition: background-color 2s ease-out;
+}
+
+
+
+
 
 /*https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
 
@@ -169,6 +233,7 @@ fieldset {
      grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
+    margin: 100px;
     
 }
 img {
@@ -208,6 +273,12 @@ img {
     grid-row-start: 11;
     grid-row-end: 48;
 } 
+.img6 {
+       grid-column-start: 1;
+    grid-column-end:5;
+    grid-row-start: 23;
+    grid-row-end: 80;
+}
 /*
 @media screen and (max-width: 1000px) {
     .galerij {
@@ -220,4 +291,17 @@ img {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2px;
     }
+}
+
+*/
+footer {
+    width: 100%;
+    background-color: #222;
+    padding: 60px 0px;
+}
+#socials {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: auto;
 }
