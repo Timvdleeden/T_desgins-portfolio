@@ -11,7 +11,7 @@
 
 }
 h1 a {
-    color:white;
+    color:black;
     align-self: left;
     font-size: 35px;
 }
@@ -34,7 +34,7 @@ h1 a {
 .navigatie a {
     display: block;
     padding: 1em;
-    color:white;
+    color:black;
     font-size: 20px;
     font-family: 'Calistoga', cursive;
     
@@ -46,13 +46,13 @@ h1 a {
 p {
     text-align: center;
     font-size: 2rem;
-    color:white;
+    color:black;
     margin-top: 200px;
     font-family: 'Calistoga', cursive;
     
 }
 .linkje {
-    color: white;
+    color: black;
 }
 
 
@@ -96,14 +96,14 @@ Achtergrond in de avond
 https://wallpaperaccess.com/full/1267246.png 
 */
 body {
-    background-image: url(https://images.unsplash.com/photo-1530982011887-3cc11cc85693?ixlib=rb-1.2.1&w=1000&q=80);
+    background-image: url(https://ak8.picdn.net/shutterstock/videos/261598/thumb/1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 .day {
-    background-image: url(https://images.unsplash.com/photo-1530982011887-3cc11cc85693?ixlib=rb-1.2.1&w=1000&q=80);
+    background-image: url(https://ak8.picdn.net/shutterstock/videos/261598/thumb/1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -133,12 +133,13 @@ body {
 form {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 250px;
     width: 300px;
     height: 225px;
     background: black;
     padding: 30px;
-    border: solid 1px white;
+    border: solid 3px white;
     border-radius: 35px;
    
    
@@ -153,9 +154,18 @@ h3 {
 fieldset {
     width: 100%;
     padding: 0;
-    border: none;
+    background-color: azure;
+    border: solid 3px white;
     margin: 0 0 10px;
     
+}
+input {
+    width: 100%;
+    height: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100%;
 }
 .container {
     text-align: center;
@@ -181,7 +191,8 @@ fieldset {
      font-family: 'Calistoga';
     width: 20%;
     height: 300px;
-    background-color: orange;
+    background-color: black;
+    color: white;
     margin: 20px;
     box-sizing: border-box;
     font-size: 30px;
@@ -209,11 +220,11 @@ fieldset {
     transition: background-color 2s ease-out;
 }
 #sport:hover {
-    background-color: whitesmoke;
+    background-color:darkorange;
     transition: background-color 2s ease-out;
 }
 #cmd:hover {
-    background-color: yellow;
+    background-color: orchid;
     transition: background-color 2s ease-out;
 }
 #daan:hover {
